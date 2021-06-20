@@ -5,6 +5,7 @@
 //  Created by kuehar on 2021/06/20.
 //
 
+
 import SwiftUI
 
 struct ActivityView: UIViewControllerRepresentable {
@@ -12,7 +13,7 @@ struct ActivityView: UIViewControllerRepresentable {
     // UIActivityViewController（シェア機能）でシェアする写真
     let shareItems: [Any]
 
-    // 表示するViewを生成するときに実行
+    // Viewを生成するときに実行
     func makeUIViewController(context: Context) ->
         UIActivityViewController {
         
@@ -28,8 +29,7 @@ struct ActivityView: UIViewControllerRepresentable {
     // Viewが更新されたときに実行
     func updateUIViewController(
         _ uiViewController: UIActivityViewController,
-        context: UIViewControllerRepresentableContext<ActivityView>)
-    {
+        context: UIViewControllerRepresentableContext<ActivityView>){
         // 処理なし
     }
 } // ActivityViewここまで

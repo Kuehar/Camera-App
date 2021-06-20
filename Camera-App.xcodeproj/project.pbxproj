@@ -13,6 +13,7 @@
 		72977F9D267F33C100239028 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72977F9C267F33C100239028 /* Preview Assets.xcassets */; };
 		72977FA6267F368800239028 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72977FA5267F368800239028 /* ImagePickerView.swift */; };
 		72977FAE267F4A9000239028 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72977FAD267F4A9000239028 /* ActivityView.swift */; };
+		72977FB1267FA43700239028 /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72977FB0267FA43700239028 /* PHPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		72977F9E267F33C100239028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72977FA5267F368800239028 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		72977FAD267F4A9000239028 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		72977FB0267FA43700239028 /* PHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				72977F99267F33C100239028 /* Assets.xcassets */,
 				72977F9E267F33C100239028 /* Info.plist */,
 				72977F9B267F33C100239028 /* Preview Content */,
+				72977FB0267FA43700239028 /* PHPickerView.swift */,
 			);
 			path = "Camera-App";
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72977FB1267FA43700239028 /* PHPickerView.swift in Sources */,
 				72977F98267F33BE00239028 /* ContentView.swift in Sources */,
 				72977FAE267F4A9000239028 /* ActivityView.swift in Sources */,
 				72977FA6267F368800239028 /* ImagePickerView.swift in Sources */,
