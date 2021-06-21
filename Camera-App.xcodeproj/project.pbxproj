@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7249BBF7268041D200273307 /* EffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7249BBF6268041D200273307 /* EffectView.swift */; };
 		72977F96267F33BE00239028 /* Camera_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72977F95267F33BE00239028 /* Camera_AppApp.swift */; };
 		72977F98267F33BE00239028 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72977F97267F33BE00239028 /* ContentView.swift */; };
 		72977F9A267F33C100239028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72977F99267F33C100239028 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7249BBF6268041D200273307 /* EffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectView.swift; sourceTree = "<group>"; };
 		72977F92267F33BE00239028 /* Camera-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Camera-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		72977F95267F33BE00239028 /* Camera_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera_AppApp.swift; sourceTree = "<group>"; };
 		72977F97267F33BE00239028 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				72977F95267F33BE00239028 /* Camera_AppApp.swift */,
 				72977F97267F33BE00239028 /* ContentView.swift */,
 				72977FAD267F4A9000239028 /* ActivityView.swift */,
+				7249BBF6268041D200273307 /* EffectView.swift */,
 				72977FA5267F368800239028 /* ImagePickerView.swift */,
 				72977F99267F33C100239028 /* Assets.xcassets */,
 				72977F9E267F33C100239028 /* Info.plist */,
@@ -150,6 +153,7 @@
 				72977FB1267FA43700239028 /* PHPickerView.swift in Sources */,
 				72977F98267F33BE00239028 /* ContentView.swift in Sources */,
 				72977FAE267F4A9000239028 /* ActivityView.swift in Sources */,
+				7249BBF7268041D200273307 /* EffectView.swift in Sources */,
 				72977FA6267F368800239028 /* ImagePickerView.swift in Sources */,
 				72977F96267F33BE00239028 /* Camera_AppApp.swift in Sources */,
 			);
