@@ -17,15 +17,12 @@ struct PHPickerView: UIViewControllerRepresentable {
     // Coordinatorでコントローラのdelegateを管理
     class Coordinator: NSObject,
                        PHPickerViewControllerDelegate {
-        
         // PHPickerView型の変数を用意
         var parent: PHPickerView
-        
         // イニシャライザ
         init(parent: PHPickerView) {
             self.parent = parent
         }
-        
         // フォトライブラリーで写真を選択・キャンセルしたときに実行される
         // delegateメソッド、必ず必要
         func picker(
@@ -50,7 +47,6 @@ struct PHPickerView: UIViewControllerRepresentable {
             }
             // sheetを閉じる
             parent.isShowSheet = false
-            
         } // pickerここまで
     } // Coordinatorここまで
     
